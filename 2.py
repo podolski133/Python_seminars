@@ -40,3 +40,10 @@ for i in range(1,6):
     elif max < a:
         max = a
 print(f'Максимальное число = {max}')
+
+# 4 вариант:
+
+# Нахождение максимального числа:
+# number = [3, 2, 8, 5, 10, 6]
+# max_number = max(number)
+# print("Наибольшее число:", max_number)
