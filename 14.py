@@ -10,3 +10,11 @@ def str(st1, st2):  # вызывается функция
             t += 1  # 
     return t  # 
 print(str(st1, st2))  # 
+
+# 2 вариант через count:
+# def find_line(string:str, under_strind:str):
+#     print(string.count(under_strind))
+
+# user_string = input('Введите текст: ')
+# user_understring = input('Введите текст: ')
+# find_line(user_string, user_understring)
